@@ -8,8 +8,8 @@ TCC and LCC produce the same value if there is no indirect link between their pa
 This is impossible that LCC is lower than TCC because nodes used by LCC are used by TCC, where TCC also accept indirect links
       
      class genericObject {
-      int x;
-      int y;
+      private int x;
+      private int y;
       
       public int getX(){
       return x;
@@ -23,6 +23,7 @@ This is impossible that LCC is lower than TCC because nodes used by LCC are used
       x=newX;
       }
       
-      public void setY(int newY)}
+      public void setY(int newY){
       y=newY;
       }
+     }
