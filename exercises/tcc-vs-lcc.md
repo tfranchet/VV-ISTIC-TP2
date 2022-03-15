@@ -6,8 +6,8 @@ Explain under which circumstances *Tight Class Cohesion* (TCC) and *Loose Class 
 
 TCC and LCC produce the same value if there is no indirect link between their pair of methods.
 This is impossible that LCC is lower than TCC because nodes used by LCC are used by TCC, where TCC also accept indirect links
-
- class genericObject {
+      
+     class genericObject {
       int x;
       int y;
       
