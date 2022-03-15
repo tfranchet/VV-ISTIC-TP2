@@ -23,6 +23,7 @@ Use your rule with different projects and describe you findings below. See the [
 
 ## Answer
 
+```
 <rule name="NoMoreThreeIfs"
       language="java"
       message="More than 3 nested if !"
@@ -45,6 +46,7 @@ Use your rule with different projects and describe you findings below. See the [
         </property>
     </properties>
  </rule>
+ ```
 
 
 There is no result for commons-collections, but when we shrink it to two, there are some : 
