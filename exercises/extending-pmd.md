@@ -23,12 +23,12 @@ Use your rule with different projects and describe you findings below. See the [
 
 ## Answer
 
-  <rule name="NoMoreThreeIfs"
+<rule name="NoMoreThreeIfs"
       language="java"
       message="More than 3 nested if !"
       class="net.sourceforge.pmd.lang.rule.XPathRule" >
     <description>
-        Description
+        Check if there is 3 if at a time
     </description>
     <priority>3</priority>
     <properties>
